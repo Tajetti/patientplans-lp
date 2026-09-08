@@ -24,6 +24,7 @@ import {
 } from "lucide-react";
 import { useRef, useState } from "react";
 import initialScreen from "./assets/tela-inicial.png";
+import internshipPlan from "./assets/plano/plano-de-estagio.pdf";
 import projectVideo from "./assets/video/video.mp4";
 import {
   diagrams,
@@ -560,15 +561,27 @@ export default function App() {
               </dl>
             </article>
 
-            <article className="report-panel">
+            <article className="documents-panel">
               <FileText aria-hidden="true" />
-              <span>Relatório de estágio</span>
-              <h3>Versão atualizada em PDF</h3>
-              {projectInfo.internshipReportUrl ? (
-                <a href={projectInfo.internshipReportUrl} target="_blank" rel="noreferrer">Abrir relatório <ExternalLink aria-hidden="true" /></a>
-              ) : (
-                <span className="pending-action">Link do relatório a adicionar</span>
-              )}
+              <span>Documentos do estágio</span>
+              <h3>Materiais para consulta</h3>
+              <div className="document-list">
+                <a className="document-row" href={internshipPlan} target="_blank" rel="noreferrer">
+                  <span><strong>Plano de estágio</strong><small>PDF · 44 páginas</small></span>
+                  <ExternalLink aria-hidden="true" />
+                </a>
+                {projectInfo.internshipReportUrl ? (
+                  <a className="document-row" href={projectInfo.internshipReportUrl} target="_blank" rel="noreferrer">
+                    <span><strong>Relatório de estágio</strong><small>PDF atualizado</small></span>
+                    <ExternalLink aria-hidden="true" />
+                  </a>
+                ) : (
+                  <div className="document-row is-pending">
+                    <span><strong>Relatório de estágio</strong><small>Documento ainda não adicionado</small></span>
+                    <em>Pendente</em>
+                  </div>
+                )}
+              </div>
             </article>
           </div>
         </div>
