@@ -1220,35 +1220,6 @@ a:focus-visible {
   color: #eccb89;
 }
 
-.delivery-checklist {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 2.5rem;
-  margin-top: 2.5rem;
-  color: #52627a;
-}
-
-.delivery-checklist span {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  font-size: 0.92rem;
-}
-
-.delivery-checklist svg {
-  width: 1.05rem;
-  height: 1.05rem;
-  color: #98702d;
-}
-
-.delivery-checklist .is-complete {
-  color: #25684d;
-}
-
-.delivery-checklist .is-complete svg {
-  color: currentColor;
-}
-
 .site-footer {
   padding: 2.5rem 2rem;
   color: #bdc8d7;

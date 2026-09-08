@@ -23,7 +23,7 @@ import {
   X,
 } from "lucide-react";
 import { useRef, useState } from "react";
-import initialScreen from "./assets/tela inicial.png";
+import initialScreen from "./assets/tela-inicial.png";
 import projectVideo from "./assets/video/video.mp4";
 import {
   diagrams,
