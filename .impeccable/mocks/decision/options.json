@@ -1,0 +1,148 @@
+{
+  "title": "Escolha a direção visual da LP",
+  "question": "Qual linguagem deve conduzir o portfólio do PacientPlans?",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Mapa de cuidado",
+      "kicker": "THE ROLL",
+      "lineage": "papel milimetrado, mapas de fluxo clínico e sinalização editorial",
+      "thesis": "O projeto vira uma rota visível: pacientes, sessões e finanças se conectam a cada evidência do estágio.",
+      "palette": ["#142B4A", "#F4F0E7", "#2764B8", "#E86A4A", "#4F8067"],
+      "materials": ["papel de projeto", "linhas de rota", "marcadores numerados"],
+      "viewport": "Uma rota larga atravessa o primeiro viewport e conecta três estações reais do produto, enquanto o título e a ação ocupam uma coluna editorial lateral.",
+      "risk": "Pode ficar técnico demais se o texto não permanecer claramente hierarquizado.",
+      "raised": [
+        {
+          "from": "Cátodo",
+          "raise": "A seção ativa ganha contraste imediato, sem animação ornamental."
+        },
+        {
+          "from": "Darkroom",
+          "raise": "As evidências ficam progressivamente mais nítidas conforme a narrativa avança."
+        },
+        {
+          "from": "Ikebana",
+          "raise": "O mapa preserva vazios amplos para equilibrar a densidade técnica."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Dossiê clínico",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "prontuários encadernados, fichas de acompanhamento e anotações de supervisão",
+      "thesis": "A LP se comporta como um dossiê aberto, com cada requisito tratado como uma evidência organizada.",
+      "palette": ["#17304F", "#F7F2E7", "#C54C3D", "#D3A64A", "#59636E"],
+      "materials": ["papel natural", "abas de índice", "carimbos de estado"],
+      "viewport": "Um dossiê em duas colunas contrapõe o problema clínico à solução, com abas laterais que antecipam as sete seções da avaliação.",
+      "risk": "É a direção mais familiar e pode cair em uma simulação decorativa de papel.",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-transit",
+      "label": "Rede em movimento",
+      "verdict": "competitive",
+      "lineage": "mapas metropolitanos em esmalte azul-noturno",
+      "thesis": "Os domínios do sistema viram linhas que se cruzam em casos de uso, entregas e documentos.",
+      "palette": ["#0E2340", "#F4F1E8", "#DE554B", "#3C73C7", "#D6A438", "#4B8B6B"],
+      "materials": ["esmalte fosco", "marcadores de estação", "linhas em 45 graus"],
+      "viewport": "Quatro linhas partem da promessa central e revelam, já na primeira tela, módulos, estados e próximos marcos do projeto.",
+      "case": "A rede traduz a arquitetura e o cronograma com clareza, mas se aproxima menos da rotina acadêmica do avaliador.",
+      "risk": "A metáfora pode dominar o conteúdo se as estações virarem decoração.",
+      "comp": ".impeccable/mocks/decision/challenger-transit.webp",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Sala de revelação",
+      "verdict": "declined",
+      "lineage": "laboratório fotográfico sob luz âmbar",
+      "thesis": "Cada fase do estágio surge como uma imagem sendo revelada.",
+      "palette": ["#21180F", "#ED9B32", "#D8D2C8", "#615A50"],
+      "materials": ["papel fotográfico", "luz de segurança", "faixas de exposição"],
+      "viewport": "A primeira tela encena o projeto passando de esboço a sistema funcional em três estágios contínuos.",
+      "case": "A evolução fica memorável, porém o ambiente escuro reduz a identificação clínica e a legibilidade do material técnico.",
+      "kept": "A narrativa mantém um progresso visual de evidência em evidência.",
+      "risk": "O âmbar pode transformar um portfólio acadêmico em peça cenográfica.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay.webp"
+    },
+    {
+      "id": "challenger-cathode",
+      "label": "Estados em cátodo",
+      "verdict": "declined",
+      "lineage": "contadores eletrônicos e malha de bronze",
+      "thesis": "Todos os estados do projeto permanecem visíveis, e apenas o atual acende em primeiro plano.",
+      "palette": ["#071421", "#F07332", "#B68A58", "#F3EDDF"],
+      "materials": ["malha fina", "vidro escuro", "brilho pontual"],
+      "viewport": "Números 01 a 07 se sobrepõem atrás do módulo atual, com uma única evidência acesa por vez.",
+      "case": "O sistema de estados é forte, mas a atmosfera eletrônica não representa bem o cuidado clínico nem a avaliação acadêmica.",
+      "kept": "A seção selecionada recebe contraste forte e inequívoco.",
+      "risk": "Pode parecer uma interface de monitoramento técnico.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-struck-cathode-gauze-hero.webp"
+    },
+    {
+      "id": "challenger-woodblock",
+      "label": "Camadas de impressão",
+      "verdict": "declined",
+      "lineage": "xilogravura popular em papel mineral",
+      "thesis": "Cada seção adiciona uma cor até formar o retrato completo do projeto.",
+      "palette": ["#EEE6D2", "#C74439", "#D5A934", "#376F62", "#1D2D42"],
+      "materials": ["papel granulado", "tinta plana", "registro de impressão"],
+      "viewport": "Um único painel acumula camadas de pacientes, agenda e financeiro conforme a rolagem.",
+      "case": "A construção por camadas conversa com evolução, mas enfraquece a precisão técnica esperada no portfólio.",
+      "kept": "As seções compartilham uma lógica de camadas, não blocos desconectados.",
+      "risk": "O tratamento artesanal pode competir com as capturas do software.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-dong-ho-shell-ground-hero.webp"
+    },
+    {
+      "id": "challenger-ikebana",
+      "label": "Arranjo assimétrico",
+      "verdict": "declined",
+      "lineage": "tokonoma e composição ikebana",
+      "thesis": "Poucos elementos organizam uma narrativa clínica com silêncio e equilíbrio.",
+      "palette": ["#EEE9DE", "#5B4B3C", "#315F8E", "#665D52"],
+      "materials": ["reboco claro", "bronze escuro", "linhas orgânicas"],
+      "viewport": "Título, fluxo e demonstração formam um triângulo assimétrico cercado por espaço ativo.",
+      "case": "O cuidado aparece com delicadeza, mas a linguagem não suporta bem tabelas, casos de uso e documentação extensa.",
+      "kept": "A composição reserva espaço ativo entre trechos densos.",
+      "risk": "A contenção pode esconder a quantidade de trabalho realizado.",
+      "hero": "https://impeccable.style/worlds/cards/growth-metamorphosis-branching-ikebana-ma-arrangement-hero.webp"
+    },
+    {
+      "id": "challenger-city",
+      "label": "Nocturno operacional",
+      "verdict": "declined",
+      "lineage": "cidade entre a hora azul e o amanhecer",
+      "thesis": "Agenda, pagamentos e acompanhamento pulsam em faixas sincronizadas.",
+      "palette": ["#0B1830", "#244D86", "#E7A548", "#D7DDE5"],
+      "materials": ["reflexo de chuva", "faixas de luz", "silhuetas"],
+      "viewport": "Três faixas horizontais sincronizam a rotina clínica e conduzem até um amanhecer de resultados.",
+      "case": "O ritmo operacional é interessante, porém a cidade noturna cria uma história que não existe no produto.",
+      "kept": "O scroll alterna faixas densas e trechos de respiro.",
+      "risk": "A estética cinematográfica pode soar inventada.",
+      "hero": "https://impeccable.style/worlds/cards/light-shadow-caustics-rain-night-cityscape-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Portfólio SaaS convencional",
+    "thesis": "Hero, cards de recursos, galeria e rodapé em uma composição conhecida.",
+    "palette": ["#FFFFFF", "#142B4A", "#2764B8", "#E8EEF5"],
+    "materials": ["grade limpa", "capturas do produto", "cartões discretos"],
+    "viewport": "Título e ação à esquerda, mockup do dashboard à direita e uma sequência linear de seções.",
+    "risk": "É claro, mas se parece com muitas landing pages de software.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}

@@ -1,0 +1,10 @@
+Use case: ui-mockup
+Asset type: composition option for a desktop React landing page
+Primary request: Design a high-fidelity first viewport for the academic portfolio of PacientPlans, a clinic management system for psychologists. Keep the chosen conventional B2B SaaS visual world, but use a proof-first composition that places the working product before long marketing copy.
+Scene/backdrop: clean white and pale mist page.
+Subject: exact word PacientPlans in a restrained top bar; a narrow left column with eyebrow PROJETO DE ESTÁGIO, headline Uma rotina clínica mais clara., short factual paragraph and blue action Explorar o portfólio; a large product canvas spanning the remaining width and most of the viewport, divided into three accurate panels titled Pacientes, Sessões and Financeiro; along the bottom edge, a small academic progress index numbered 01–07.
+Style/medium: realistic production web UI, crisp contemporary B2B SaaS, professional health technology.
+Composition/framing: 16:10 desktop viewport; 30/70 asymmetric split with the product canvas dominant; visible continuation below the fold; no floating feature cards.
+Color palette: white #FFFFFF, navy #142B4A, cobalt #2764B8, mist #E8EEF5, muted green #4F8067.
+Materials/textures: precise UI panels, fine rules, restrained shadow.
+Constraints: slightly rounded corners only, maximum subtle 8px radius; no gradients; no glassmorphism; no pill buttons; no stock photo; no invented customer claims, prices, testimonials, percentages or awards; no watermark.

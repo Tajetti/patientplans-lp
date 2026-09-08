@@ -1,0 +1,1335 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-09-08T11:58:53.664Z",
+  "comp": ".impeccable/mocks/comp-02.webp",
+  "warnings": [
+    "region product-shell: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1586,
+    "height": 992
+  },
+  "aspect": 1.5988,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f7f8f8",
+      "coverage": 0.9669
+    },
+    {
+      "hex": "#091530",
+      "coverage": 0.0122
+    },
+    {
+      "hex": "#0859cf",
+      "coverage": 0.0107
+    },
+    {
+      "hex": "#8991a1",
+      "coverage": 0.0053
+    },
+    {
+      "hex": "#c3c9d9",
+      "coverage": 0.0049
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.025,
+      "strength": 0.282
+    },
+    {
+      "y": 0.1875,
+      "strength": 0.6076
+    },
+    {
+      "y": 0.225,
+      "strength": 0.6111
+    },
+    {
+      "y": 0.25,
+      "strength": 0.4861
+    },
+    {
+      "y": 0.3125,
+      "strength": 0.4602
+    },
+    {
+      "y": 0.375,
+      "strength": 0.2799
+    },
+    {
+      "y": 0.5125,
+      "strength": 0.3126
+    },
+    {
+      "y": 0.775,
+      "strength": 0.221
+    }
+  ],
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "text",
+      "note": "PacientPlans wordmark in navy at top left",
+      "grid": "A0:B0",
+      "coverBox": {
+        "x": 0,
+        "y": 0,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0567,
+        "y": 0.0121,
+        "w": 0.1135,
+        "h": 0.0423
+      },
+      "px": {
+        "x": 90,
+        "y": 12,
+        "w": 180,
+        "h": 42
+      },
+      "aspect": 4.2857,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.706
+        },
+        {
+          "hex": "#0a1431",
+          "coverage": 0.1738
+        },
+        {
+          "hex": "#b7c0cd",
+          "coverage": 0.051
+        },
+        {
+          "hex": "#263647",
+          "coverage": 0.0352
+        },
+        {
+          "hex": "#797f92",
+          "coverage": 0.034
+        }
+      ],
+      "detail": {
+        "energy": 43.6866
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 21.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6544,
+          "advTall": 0.4908,
+          "advX": 0.6661,
+          "gap": 0.0467,
+          "xRatio": 0.7438,
+          "stemW": 0.2219,
+          "contrast": 1.1776,
+          "serif": 0.9888,
+          "densTall": 0.6068,
+          "densX": 0.6664,
+          "weight": 0.6068
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "nav-sobre",
+      "kind": "text",
+      "note": "Sobre navigation link",
+      "grid": "G0:G0",
+      "coverBox": {
+        "x": 0.6,
+        "y": 0,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.657,
+        "y": 0.0181,
+        "w": 0.0416,
+        "h": 0.0302
+      },
+      "px": {
+        "x": 1042,
+        "y": 18,
+        "w": 66,
+        "h": 30
+      },
+      "aspect": 2.2,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8451
+        },
+        {
+          "hex": "#b8c5cf",
+          "coverage": 0.0751
+        },
+        {
+          "hex": "#152535",
+          "coverage": 0.0282
+        },
+        {
+          "hex": "#303555",
+          "coverage": 0.0282
+        },
+        {
+          "hex": "#65687e",
+          "coverage": 0.0235
+        }
+      ],
+      "detail": {
+        "energy": 16.194
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 14,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6794,
+          "advTall": 0.6794,
+          "advX": 0.6437,
+          "gap": 0.0894,
+          "xRatio": 0.7351,
+          "stemW": 0.1812,
+          "contrast": 1.0908,
+          "serif": null,
+          "densTall": 0.5201,
+          "densX": 0.5832,
+          "weight": 0.5201
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "nav-tecnologias",
+      "kind": "text",
+      "note": "Tecnologias navigation link",
+      "grid": "H0:H0",
+      "coverBox": {
+        "x": 0.7,
+        "y": 0,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.715,
+        "y": 0.0181,
+        "w": 0.0719,
+        "h": 0.0363
+      },
+      "px": {
+        "x": 1134,
+        "y": 18,
+        "w": 114,
+        "h": 36
+      },
+      "aspect": 3.1667,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8404
+        },
+        {
+          "hex": "#c4cddb",
+          "coverage": 0.0599
+        },
+        {
+          "hex": "#182636",
+          "coverage": 0.0466
+        },
+        {
+          "hex": "#485565",
+          "coverage": 0.0333
+        },
+        {
+          "hex": "#848fa3",
+          "coverage": 0.02
+        }
+      ],
+      "detail": {
+        "energy": 25.0978
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 13.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6095,
+          "advTall": 0.1793,
+          "advX": 0.6274,
+          "gap": 0.1076,
+          "xRatio": 0.7369,
+          "stemW": 0.1768,
+          "contrast": 1.0742,
+          "serif": null,
+          "densTall": 0.8297,
+          "densX": 0.5891,
+          "weight": 0.8297
+        },
+        "widthClass": "normal",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "nav-projeto",
+      "kind": "text",
+      "note": "O projeto navigation link",
+      "grid": "I0:I0",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8039,
+        "y": 0.0181,
+        "w": 0.0567,
+        "h": 0.0363
+      },
+      "px": {
+        "x": 1275,
+        "y": 18,
+        "w": 90,
+        "h": 36
+      },
+      "aspect": 2.5,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.8528
+        },
+        {
+          "hex": "#c2cedb",
+          "coverage": 0.0556
+        },
+        {
+          "hex": "#586170",
+          "coverage": 0.0444
+        },
+        {
+          "hex": "#222c43",
+          "coverage": 0.0361
+        },
+        {
+          "hex": "#8c98a8",
+          "coverage": 0.0111
+        }
+      ],
+      "detail": {
+        "energy": 19.2954
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 6,
+          "capHeightPx": 13.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.9862,
+          "advTall": 0.9862,
+          "advX": 0.8786,
+          "gap": 0.1076,
+          "xRatio": 0.7354,
+          "stemW": 0.1742,
+          "contrast": 1.0532,
+          "serif": null,
+          "densTall": 0.483,
+          "densX": 0.5409,
+          "weight": 0.483
+        },
+        "widthClass": "wide",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "nav-contato",
+      "kind": "text",
+      "note": "Contato navigation link",
+      "grid": "J0:J0",
+      "coverBox": {
+        "x": 0.9,
+        "y": 0,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8997,
+        "y": 0.0242,
+        "w": 0.0303,
+        "h": 0.0242
+      },
+      "px": {
+        "x": 1427,
+        "y": 24,
+        "w": 48,
+        "h": 24
+      },
+      "aspect": 2,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7795
+        },
+        {
+          "hex": "#b0b8c8",
+          "coverage": 0.1102
+        },
+        {
+          "hex": "#6a7886",
+          "coverage": 0.0551
+        },
+        {
+          "hex": "#203040",
+          "coverage": 0.0315
+        },
+        {
+          "hex": "#5d6888",
+          "coverage": 0.0236
+        }
+      ],
+      "detail": {
+        "energy": 15.7995
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 12.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4379,
+          "advTall": 0.4379,
+          "advX": 0.6768,
+          "gap": 0.0796,
+          "xRatio": 0.7875,
+          "stemW": 0.1876,
+          "contrast": 1.1128,
+          "serif": 0.9822,
+          "densTall": 0.5258,
+          "densX": 0.625,
+          "weight": 0.5258
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "eyebrow",
+      "kind": "text",
+      "note": "PORTFÓLIO DE ESTÁGIO uppercase eyebrow",
+      "grid": "D1:F1",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.1,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3001,
+        "y": 0.1603,
+        "w": 0.3001,
+        "h": 0.0393
+      },
+      "px": {
+        "x": 476,
+        "y": 159,
+        "w": 476,
+        "h": 39
+      },
+      "aspect": 12.2051,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.724
+        },
+        {
+          "hex": "#091736",
+          "coverage": 0.2176
+        },
+        {
+          "hex": "#253447",
+          "coverage": 0.0289
+        },
+        {
+          "hex": "#838b9c",
+          "coverage": 0.0162
+        },
+        {
+          "hex": "#c6c9d7",
+          "coverage": 0.0132
+        }
+      ],
+      "detail": {
+        "energy": 67.8415
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 16.2,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 1.8197,
+          "advTall": 1.8197,
+          "advX": null,
+          "gap": 0.2313,
+          "xRatio": null,
+          "stemW": 0.3636,
+          "contrast": 2.9048,
+          "serif": null,
+          "densTall": 0.7426,
+          "densX": null,
+          "weight": 0.7426
+        },
+        "widthClass": "wide",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Gestão clínica em um só lugar centered headline",
+      "grid": "C1:H2",
+      "coverBox": {
+        "x": 0.2,
+        "y": 0.1,
+        "w": 0.6,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.2264,
+        "y": 0.1603,
+        "w": 0.5485,
+        "h": 0.0786
+      },
+      "px": {
+        "x": 359,
+        "y": 159,
+        "w": 870,
+        "h": 78
+      },
+      "aspect": 11.1538,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7108
+        },
+        {
+          "hex": "#091733",
+          "coverage": 0.2299
+        },
+        {
+          "hex": "#243445",
+          "coverage": 0.0238
+        },
+        {
+          "hex": "#081747",
+          "coverage": 0.0198
+        },
+        {
+          "hex": "#c4cad6",
+          "coverage": 0.0156
+        }
+      ],
+      "detail": {
+        "energy": 101.8851
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 24,
+          "capHeightPx": 48.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6629,
+          "advTall": 0.4765,
+          "advX": 0.6629,
+          "gap": 0.0829,
+          "xRatio": 0.7153,
+          "stemW": 0.214,
+          "contrast": 1.1957,
+          "serif": 0.9994,
+          "densTall": 0.6491,
+          "densX": 0.6734,
+          "weight": 0.6491
+        },
+        "widthClass": "normal",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Atkinson Hyperlegible Next",
+          "weight": 700,
+          "fontSizePx": 69,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "213f577531fb"
+        }
+      }
+    },
+    {
+      "id": "primary-action",
+      "kind": "control",
+      "note": "Blue Conheça o projeto button with arrow",
+      "grid": "E2:F3",
+      "coverBox": {
+        "x": 0.4,
+        "y": 0.2,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.3997,
+        "y": 0.2419,
+        "w": 0.1999,
+        "h": 0.0786
+      },
+      "px": {
+        "x": 634,
+        "y": 240,
+        "w": 317,
+        "h": 78
+      },
+      "aspect": 4.0641,
+      "palette": [
+        {
+          "hex": "#0859cf",
+          "coverage": 0.6749
+        },
+        {
+          "hex": "#f4f6f8",
+          "coverage": 0.2078
+        },
+        {
+          "hex": "#73a8ed",
+          "coverage": 0.0562
+        },
+        {
+          "hex": "#1362bd",
+          "coverage": 0.0492
+        },
+        {
+          "hex": "#9bcbf5",
+          "coverage": 0.0118
+        }
+      ],
+      "detail": {
+        "energy": 26.7433
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "proof-sections",
+      "kind": "chrome",
+      "note": "Outlined section icon and 7 seções proof item",
+      "grid": "B3:D3",
+      "box": {
+        "x": 0.1,
+        "y": 0.3,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "px": {
+        "x": 159,
+        "y": 298,
+        "w": 476,
+        "h": 99
+      },
+      "aspect": 4.8081,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9856
+        },
+        {
+          "hex": "#405270",
+          "coverage": 0.0073
+        },
+        {
+          "hex": "#b8c6d9",
+          "coverage": 0.004
+        },
+        {
+          "hex": "#8999ac",
+          "coverage": 0.0031
+        }
+      ],
+      "detail": {
+        "energy": 7.2293
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "proof-stack",
+      "kind": "chrome",
+      "note": "Code icon and React + Spring Boot proof item",
+      "grid": "E3:F3",
+      "box": {
+        "x": 0.4,
+        "y": 0.3,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "px": {
+        "x": 634,
+        "y": 298,
+        "w": 317,
+        "h": 99
+      },
+      "aspect": 3.202,
+      "palette": [
+        {
+          "hex": "#f6f8f8",
+          "coverage": 0.8524
+        },
+        {
+          "hex": "#0958cc",
+          "coverage": 0.1173
+        },
+        {
+          "hex": "#9ca8bc",
+          "coverage": 0.0105
+        },
+        {
+          "hex": "#314362",
+          "coverage": 0.0102
+        },
+        {
+          "hex": "#53647f",
+          "coverage": 0.0096
+        }
+      ],
+      "detail": {
+        "energy": 17.5477
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "proof-progress",
+      "kind": "chrome",
+      "note": "Upward trend icon and Projeto em evolução proof item",
+      "grid": "G3:I3",
+      "box": {
+        "x": 0.6,
+        "y": 0.3,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "px": {
+        "x": 952,
+        "y": 298,
+        "w": 476,
+        "h": 99
+      },
+      "aspect": 4.8081,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9723
+        },
+        {
+          "hex": "#d0d9e9",
+          "coverage": 0.0092
+        },
+        {
+          "hex": "#425270",
+          "coverage": 0.0067
+        },
+        {
+          "hex": "#9dacc0",
+          "coverage": 0.0067
+        },
+        {
+          "hex": "#6c7a93",
+          "coverage": 0.005
+        }
+      ],
+      "detail": {
+        "energy": 10.0303
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "product-shell",
+      "kind": "chrome",
+      "note": "Large light browser window containing the PacientPlans dashboard",
+      "grid": "A4:J9",
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0.4,
+        "w": 1,
+        "h": 0.6
+      },
+      "px": {
+        "x": 0,
+        "y": 397,
+        "w": 1586,
+        "h": 595
+      },
+      "aspect": 2.6655,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.9847
+        },
+        {
+          "hex": "#8f94a4",
+          "coverage": 0.0065
+        },
+        {
+          "hex": "#bcc4d0",
+          "coverage": 0.0047
+        },
+        {
+          "hex": "#080f28",
+          "coverage": 0.0029
+        },
+        {
+          "hex": "#687891",
+          "coverage": 0.0012
+        }
+      ],
+      "detail": {
+        "energy": 12.4838
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "browser-toolbar",
+      "kind": "chrome",
+      "note": "Browser toolbar with traffic lights and address field",
+      "grid": "A4:J4",
+      "box": {
+        "x": 0,
+        "y": 0.4,
+        "w": 1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 397,
+        "w": 1586,
+        "h": 99
+      },
+      "aspect": 16.0202,
+      "palette": [
+        {
+          "hex": "#f4f6f8",
+          "coverage": 0.999
+        },
+        {
+          "hex": "#9898a8",
+          "coverage": 0.0005
+        },
+        {
+          "hex": "#f8b838",
+          "coverage": 0.0005
+        }
+      ],
+      "detail": {
+        "energy": 9.7172
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "product-sidebar",
+      "kind": "chrome",
+      "note": "Dashboard side navigation with brand and five menu items",
+      "grid": "A5:B9",
+      "box": {
+        "x": 0,
+        "y": 0.5,
+        "w": 0.2,
+        "h": 0.5
+      },
+      "px": {
+        "x": 0,
+        "y": 496,
+        "w": 317,
+        "h": 496
+      },
+      "aspect": 0.6391,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.9855
+        },
+        {
+          "hex": "#bac5d6",
+          "coverage": 0.0066
+        },
+        {
+          "hex": "#788498",
+          "coverage": 0.0041
+        },
+        {
+          "hex": "#08122f",
+          "coverage": 0.003
+        },
+        {
+          "hex": "#0848a8",
+          "coverage": 0.0009
+        }
+      ],
+      "detail": {
+        "energy": 7.3399
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "dashboard-heading",
+      "kind": "text",
+      "note": "Dashboard heading with clinical overview subtitle",
+      "grid": "C5:E5",
+      "coverBox": {
+        "x": 0.2,
+        "y": 0.5,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.2112,
+        "y": 0.5,
+        "w": 0.1513,
+        "h": 0.0665
+      },
+      "px": {
+        "x": 335,
+        "y": 496,
+        "w": 240,
+        "h": 66
+      },
+      "aspect": 3.6364,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8512
+        },
+        {
+          "hex": "#7e8491",
+          "coverage": 0.0698
+        },
+        {
+          "hex": "#afb8c3",
+          "coverage": 0.0378
+        },
+        {
+          "hex": "#0c122f",
+          "coverage": 0.0258
+        },
+        {
+          "hex": "#454b61",
+          "coverage": 0.0155
+        }
+      ],
+      "detail": {
+        "energy": 30.7452
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 16.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7145,
+          "advTall": 1.0271,
+          "advX": 0.655,
+          "gap": 0.0595,
+          "xRatio": 0.7546,
+          "stemW": 0.245,
+          "contrast": 1.1926,
+          "serif": 0.4862,
+          "densTall": 0.5919,
+          "densX": 0.737,
+          "weight": 0.5919
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "dashboard-user",
+      "kind": "chrome",
+      "note": "Notification icon and psychologist profile summary",
+      "grid": "H5:J5",
+      "box": {
+        "x": 0.7,
+        "y": 0.5,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "px": {
+        "x": 1110,
+        "y": 496,
+        "w": 476,
+        "h": 99
+      },
+      "aspect": 4.8081,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9689
+        },
+        {
+          "hex": "#697b9d",
+          "coverage": 0.0186
+        },
+        {
+          "hex": "#aeb6c5",
+          "coverage": 0.0073
+        },
+        {
+          "hex": "#485464",
+          "coverage": 0.0033
+        },
+        {
+          "hex": "#6d8286",
+          "coverage": 0.0019
+        }
+      ],
+      "detail": {
+        "energy": 7.5208
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stat-patients",
+      "kind": "chrome",
+      "note": "Patients statistic card with count and label",
+      "grid": "C6:D6",
+      "box": {
+        "x": 0.2,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "px": {
+        "x": 317,
+        "y": 595,
+        "w": 317,
+        "h": 99
+      },
+      "aspect": 3.202,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.9639
+        },
+        {
+          "hex": "#7e838f",
+          "coverage": 0.0156
+        },
+        {
+          "hex": "#a7b0b4",
+          "coverage": 0.0145
+        },
+        {
+          "hex": "#080f2a",
+          "coverage": 0.0038
+        },
+        {
+          "hex": "#2460b0",
+          "coverage": 0.0023
+        }
+      ],
+      "detail": {
+        "energy": 13.0196
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stat-sessions",
+      "kind": "chrome",
+      "note": "Sessions statistic card with count and label",
+      "grid": "E6:F6",
+      "box": {
+        "x": 0.4,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "px": {
+        "x": 634,
+        "y": 595,
+        "w": 317,
+        "h": 99
+      },
+      "aspect": 3.202,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.969
+        },
+        {
+          "hex": "#c3c8d2",
+          "coverage": 0.0102
+        },
+        {
+          "hex": "#9097a0",
+          "coverage": 0.0099
+        },
+        {
+          "hex": "#6a6f7f",
+          "coverage": 0.0061
+        },
+        {
+          "hex": "#257f51",
+          "coverage": 0.0047
+        }
+      ],
+      "detail": {
+        "energy": 12.3805
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stat-revenue",
+      "kind": "chrome",
+      "note": "Monthly revenue statistic card with amount and label",
+      "grid": "G6:H6",
+      "box": {
+        "x": 0.6,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "px": {
+        "x": 952,
+        "y": 595,
+        "w": 317,
+        "h": 99
+      },
+      "aspect": 3.202,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9203
+        },
+        {
+          "hex": "#9ba3ad",
+          "coverage": 0.0221
+        },
+        {
+          "hex": "#7b7e8e",
+          "coverage": 0.0203
+        },
+        {
+          "hex": "#cacfdc",
+          "coverage": 0.0194
+        },
+        {
+          "hex": "#0b102c",
+          "coverage": 0.0179
+        }
+      ],
+      "detail": {
+        "energy": 27.2101
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stat-reports",
+      "kind": "chrome",
+      "note": "Reports statistic card with count and label",
+      "grid": "I6:J6",
+      "box": {
+        "x": 0.8,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "px": {
+        "x": 1269,
+        "y": 595,
+        "w": 317,
+        "h": 99
+      },
+      "aspect": 3.202,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.9678
+        },
+        {
+          "hex": "#848993",
+          "coverage": 0.0192
+        },
+        {
+          "hex": "#b8bec6",
+          "coverage": 0.0112
+        },
+        {
+          "hex": "#303850",
+          "coverage": 0.0011
+        },
+        {
+          "hex": "#080818",
+          "coverage": 0.0006
+        }
+      ],
+      "detail": {
+        "energy": 8.9705
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "sessions-panel",
+      "kind": "chrome",
+      "note": "Upcoming sessions table with three rows and view-all action",
+      "grid": "C7:F9",
+      "box": {
+        "x": 0.2,
+        "y": 0.7,
+        "w": 0.4,
+        "h": 0.3
+      },
+      "px": {
+        "x": 317,
+        "y": 694,
+        "w": 634,
+        "h": 298
+      },
+      "aspect": 2.1275,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.9756
+        },
+        {
+          "hex": "#bec4d0",
+          "coverage": 0.0116
+        },
+        {
+          "hex": "#868d9d",
+          "coverage": 0.0086
+        },
+        {
+          "hex": "#080c22",
+          "coverage": 0.0022
+        },
+        {
+          "hex": "#303646",
+          "coverage": 0.002
+        }
+      ],
+      "detail": {
+        "energy": 10.0399
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "patients-panel",
+      "kind": "chrome",
+      "note": "Patients in follow-up table with three active status rows",
+      "grid": "G7:J9",
+      "box": {
+        "x": 0.6,
+        "y": 0.7,
+        "w": 0.4,
+        "h": 0.3
+      },
+      "px": {
+        "x": 952,
+        "y": 694,
+        "w": 634,
+        "h": 298
+      },
+      "aspect": 2.1275,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.9819
+        },
+        {
+          "hex": "#a6acbc",
+          "coverage": 0.0088
+        },
+        {
+          "hex": "#0b0e26",
+          "coverage": 0.0033
+        },
+        {
+          "hex": "#d8f8e8",
+          "coverage": 0.0033
+        },
+        {
+          "hex": "#2c3949",
+          "coverage": 0.0028
+        }
+      ],
+      "detail": {
+        "energy": 8.9694
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    }
+  ]
+}

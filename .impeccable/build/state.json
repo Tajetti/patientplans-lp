@@ -1,0 +1,404 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-09-08T11:48:19.465Z",
+  "comp": ".impeccable/mocks/comp-02.webp",
+  "direction": "b8683da0",
+  "breakpoint": "1586x992",
+  "artifact": null,
+  "phase": "review",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-09-08T11:48:19.464Z",
+      "closedAt": "2026-09-08T11:57:33.547Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/comp-02.webp",
+        "at": "2026-09-08T11:57:33.547Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-09-08T11:57:33.577Z",
+      "closedAt": "2026-09-08T11:59:27.269Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "22 regions, 0 plates, 8 text regions measured",
+        "at": "2026-09-08T11:59:27.269Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-09-08T11:59:27.269Z",
+      "closedAt": "2026-09-08T11:59:36.817Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no plates owed",
+        "at": "2026-09-08T11:59:36.817Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "closed",
+      "openedAt": "2026-09-08T11:59:36.817Z",
+      "closedAt": "2026-09-08T12:25:06.101Z",
+      "attempts": 6,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "hero 86% (match)",
+        "score": 0.8644,
+        "verdict": "match",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/Users/alvarotajetti/Estagio/PacientPlans/pacientplans-lp/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "stat-reports drift 53%",
+          "stat-patients drift 56%",
+          "stat-sessions drift 56%"
+        ],
+        "worstIds": [
+          "stat-reports",
+          "stat-patients",
+          "stat-sessions"
+        ],
+        "worstCrops": [
+          {
+            "id": "stat-reports",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.534,
+              "structure": 0.7574,
+              "color": 0.9795,
+              "colorIntersection": 0.9613,
+              "paletteMatch": 0.9893,
+              "detail": 0.0963,
+              "detailRaw": 0.2421,
+              "detailAdded": 0.2917,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/stat-reports.png"
+          },
+          {
+            "id": "stat-patients",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5564,
+              "structure": 0.7062,
+              "color": 0.9741,
+              "colorIntersection": 0.9561,
+              "paletteMatch": 0.9837,
+              "detail": 0.1127,
+              "detailRaw": 0.2482,
+              "detailAdded": 0.2708,
+              "bands": 0.25
+            },
+            "file": ".impeccable/review/diff/hero/regions/stat-patients.png"
+          },
+          {
+            "id": "stat-sessions",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5624,
+              "structure": 0.7835,
+              "color": 0.9729,
+              "colorIntersection": 0.9517,
+              "paletteMatch": 0.9843,
+              "detail": 0.1796,
+              "detailRaw": 0.2994,
+              "detailAdded": 0.2396,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/stat-sessions.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, unchanged for 3+ attempts) text eyebrow: cap height 11.6px in the build, 16.2px in the comp (-28%); set font-size so the cap height renders at 16.2px",
+          "(advisory, unchanged for 3+ attempts) text nav-tecnologias: the face renders 34% lighter than the comp's (ink density 0.55 vs 0.83); raise a weight step or use the ranked face",
+          "(advisory, unchanged for 3+ attempts) text nav-contato: ink is #192938 in the build, #b0b8c8 in the comp; use the comp's colour"
+        ],
+        "regionVerdicts": {
+          "brand": "drift",
+          "nav-sobre": "drift",
+          "nav-tecnologias": "drift",
+          "nav-projeto": "drift",
+          "nav-contato": "match",
+          "eyebrow": "drift",
+          "headline": "drift",
+          "primary-action": "drift",
+          "proof-sections": "match",
+          "proof-stack": "drift",
+          "proof-progress": "match",
+          "product-shell": "drift",
+          "browser-toolbar": "match",
+          "product-sidebar": "match",
+          "dashboard-heading": "drift",
+          "dashboard-user": "match",
+          "stat-patients": "drift",
+          "stat-sessions": "drift",
+          "stat-revenue": "drift",
+          "stat-reports": "drift",
+          "sessions-panel": "drift",
+          "patients-panel": "drift"
+        },
+        "at": "2026-09-08T12:25:06.101Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text eyebrow: cap height 8.8px in the build, 16.2px in the comp (-46%); set font-size so the cap height renders at 16.2px": 2,
+        "text nav-tecnologias: the face renders 34% lighter than the comp's (ink density 0.55 vs 0.83); raise a weight step or use the ranked face": 7,
+        "text nav-contato: ink is #192938 in the build, #b0b8c8 in the comp; use the comp's colour": 7,
+        "chrome proof-stack: its rule sits 10px into the box in the comp and 19px in the build (+9px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "control primary-action: its rule sits 6px into the box in the comp and 63px in the build (+57px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text eyebrow: cap height 4.5px in the build, 16.2px in the comp (-72%); set font-size so the cap height renders at 16.2px": 1,
+        "control primary-action: its rule sits 6px into the box in the comp and 64px in the build (+58px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text eyebrow: cap height 11.6px in the build, 16.2px in the comp (-28%); set font-size so the cap height renders at 16.2px": 4
+      },
+      "records": 1,
+      "history": [
+        {
+          "at": "2026-09-08T12:15:35.370Z",
+          "score": 0.8382,
+          "worstIds": [
+            "proof-stack",
+            "headline",
+            "dashboard-user"
+          ],
+          "regionVerdicts": {
+            "brand": "drift",
+            "nav-sobre": "drift",
+            "nav-tecnologias": "drift",
+            "nav-projeto": "drift",
+            "nav-contato": "match",
+            "eyebrow": "drift",
+            "headline": "drift",
+            "primary-action": "drift",
+            "proof-sections": "drift",
+            "proof-stack": "drift",
+            "proof-progress": "missing",
+            "product-shell": "drift",
+            "browser-toolbar": "match",
+            "product-sidebar": "match",
+            "dashboard-heading": "drift",
+            "dashboard-user": "missing",
+            "stat-patients": "drift",
+            "stat-sessions": "drift",
+            "stat-revenue": "drift",
+            "stat-reports": "drift",
+            "sessions-panel": "drift",
+            "patients-panel": "drift"
+          },
+          "artifactHash": "f281b3415c4b"
+        },
+        {
+          "at": "2026-09-08T12:19:55.732Z",
+          "score": 0.8457,
+          "worstIds": [
+            "proof-stack",
+            "dashboard-user",
+            "primary-action"
+          ],
+          "regionVerdicts": {
+            "brand": "drift",
+            "nav-sobre": "drift",
+            "nav-tecnologias": "drift",
+            "nav-projeto": "drift",
+            "nav-contato": "match",
+            "eyebrow": "drift",
+            "headline": "drift",
+            "primary-action": "drift",
+            "proof-sections": "drift",
+            "proof-stack": "drift",
+            "proof-progress": "missing",
+            "product-shell": "drift",
+            "browser-toolbar": "match",
+            "product-sidebar": "match",
+            "dashboard-heading": "drift",
+            "dashboard-user": "missing",
+            "stat-patients": "drift",
+            "stat-sessions": "drift",
+            "stat-revenue": "drift",
+            "stat-reports": "drift",
+            "sessions-panel": "drift",
+            "patients-panel": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-08T12:21:59.789Z",
+          "score": 0.8512,
+          "worstIds": [
+            "dashboard-user",
+            "stat-reports",
+            "stat-patients"
+          ],
+          "regionVerdicts": {
+            "brand": "drift",
+            "nav-sobre": "drift",
+            "nav-tecnologias": "drift",
+            "nav-projeto": "drift",
+            "nav-contato": "match",
+            "eyebrow": "drift",
+            "headline": "drift",
+            "primary-action": "drift",
+            "proof-sections": "drift",
+            "proof-stack": "drift",
+            "proof-progress": "missing",
+            "product-shell": "drift",
+            "browser-toolbar": "match",
+            "product-sidebar": "match",
+            "dashboard-heading": "drift",
+            "dashboard-user": "missing",
+            "stat-patients": "drift",
+            "stat-sessions": "drift",
+            "stat-revenue": "drift",
+            "stat-reports": "drift",
+            "sessions-panel": "drift",
+            "patients-panel": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-08T12:23:17.895Z",
+          "score": 0.8531,
+          "worstIds": [
+            "proof-stack",
+            "dashboard-user",
+            "stat-reports"
+          ],
+          "regionVerdicts": {
+            "brand": "drift",
+            "nav-sobre": "drift",
+            "nav-tecnologias": "drift",
+            "nav-projeto": "drift",
+            "nav-contato": "match",
+            "eyebrow": "drift",
+            "headline": "drift",
+            "primary-action": "drift",
+            "proof-sections": "drift",
+            "proof-stack": "missing",
+            "proof-progress": "missing",
+            "product-shell": "drift",
+            "browser-toolbar": "match",
+            "product-sidebar": "match",
+            "dashboard-heading": "drift",
+            "dashboard-user": "missing",
+            "stat-patients": "drift",
+            "stat-sessions": "drift",
+            "stat-revenue": "drift",
+            "stat-reports": "drift",
+            "sessions-panel": "drift",
+            "patients-panel": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-08T12:25:06.101Z",
+          "score": 0.8644,
+          "worstIds": [
+            "stat-reports",
+            "stat-patients",
+            "stat-sessions"
+          ],
+          "regionVerdicts": {
+            "brand": "drift",
+            "nav-sobre": "drift",
+            "nav-tecnologias": "drift",
+            "nav-projeto": "drift",
+            "nav-contato": "match",
+            "eyebrow": "drift",
+            "headline": "drift",
+            "primary-action": "drift",
+            "proof-sections": "match",
+            "proof-stack": "drift",
+            "proof-progress": "match",
+            "product-shell": "drift",
+            "browser-toolbar": "match",
+            "product-sidebar": "match",
+            "dashboard-heading": "drift",
+            "dashboard-user": "match",
+            "stat-patients": "drift",
+            "stat-sessions": "drift",
+            "stat-revenue": "drift",
+            "stat-reports": "drift",
+            "sessions-panel": "drift",
+            "patients-panel": "drift"
+          },
+          "artifactHash": null
+        }
+      ]
+    },
+    "sections": {
+      "status": "closed",
+      "openedAt": "2026-09-08T12:25:06.101Z",
+      "closedAt": "2026-09-08T12:34:37.139Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-09-08T12:34:37.138Z"
+      },
+      "forced": null
+    },
+    "motion": {
+      "status": "closed",
+      "openedAt": "2026-09-08T12:34:37.139Z",
+      "closedAt": "2026-09-08T12:35:23.266Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-09-08T12:35:23.265Z"
+      },
+      "forced": null
+    },
+    "responsive": {
+      "status": "closed",
+      "openedAt": "2026-09-08T12:35:23.266Z",
+      "closedAt": "2026-09-08T12:40:17.142Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "desktop 85% (match)",
+        "score": 0.8507,
+        "sideBySide": "/Users/alvarotajetti/Estagio/PacientPlans/pacientplans-lp/.impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-09-08T12:40:17.142Z"
+      },
+      "forced": null
+    },
+    "review": {
+      "status": "closed",
+      "openedAt": "2026-09-08T12:40:17.142Z",
+      "closedAt": "2026-09-08T13:06:02.070Z",
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-09-08T13:06:02.070Z",
+    "phaseAtFinish": "review"
+  },
+  "plates": {}
+}

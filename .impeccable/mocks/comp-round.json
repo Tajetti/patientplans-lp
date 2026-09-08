@@ -1,0 +1,38 @@
+{
+  "title": "Escolha a composição final",
+  "question": "Qual estrutura deve conduzir a primeira tela da LP?",
+  "options": [
+    {
+      "id": "comp-01",
+      "label": "Clássica dividida",
+      "thesis": "Apresentação objetiva à esquerda e dashboard como prova à direita.",
+      "palette": ["#FFFFFF", "#142B4A", "#2764B8", "#E8EEF5"],
+      "materials": ["grade limpa", "interface realista", "sombra discreta"],
+      "viewport": "Hero 42/58 com texto, ação e produto lado a lado; recursos começam a aparecer abaixo.",
+      "risk": "É a composição mais comum e precisa de execução muito precisa para não parecer genérica.",
+      "comp": ".impeccable/mocks/comp-01.webp"
+    },
+    {
+      "id": "comp-02",
+      "label": "Produto central",
+      "thesis": "A mensagem acadêmica abre a página e um grande dashboard concentra toda a prova visual.",
+      "palette": ["#FFFFFF", "#142B4A", "#2764B8", "#E8EEF5", "#4F8067"],
+      "materials": ["browser amplo", "tipografia central", "faixa de evidências"],
+      "viewport": "Título e ação no centro; o dashboard ocupa quase toda a largura logo abaixo.",
+      "risk": "O centro pode ficar solene demais se o restante da página não variar o ritmo.",
+      "comp": ".impeccable/mocks/comp-02.webp"
+    },
+    {
+      "id": "comp-03",
+      "label": "Prova primeiro",
+      "thesis": "Uma coluna curta explica o projeto enquanto a interface domina a primeira tela.",
+      "palette": ["#FFFFFF", "#142B4A", "#2764B8", "#E8EEF5", "#4F8067"],
+      "materials": ["canvas de produto", "regras finas", "índice 01–07"],
+      "viewport": "Divisão 30/70, interface ampla com pacientes, sessões e financeiro e índice acadêmico no rodapé.",
+      "risk": "Exige boa adaptação mobile para preservar o foco sem comprimir os painéis.",
+      "comp": ".impeccable/mocks/comp-03.webp"
+    }
+  ],
+  "steer": false,
+  "canon": false
+}

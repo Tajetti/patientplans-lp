@@ -1,0 +1,26 @@
+{
+  "regions": [
+    { "id": "brand", "kind": "text", "grid": "A0:B0", "note": "PacientPlans wordmark in navy at top left" },
+    { "id": "nav-sobre", "kind": "text", "grid": "G0:G0", "note": "Sobre navigation link" },
+    { "id": "nav-tecnologias", "kind": "text", "grid": "H0:H0", "note": "Tecnologias navigation link" },
+    { "id": "nav-projeto", "kind": "text", "grid": "I0:I0", "note": "O projeto navigation link" },
+    { "id": "nav-contato", "kind": "text", "grid": "J0:J0", "note": "Contato navigation link" },
+    { "id": "eyebrow", "kind": "text", "grid": "D1:F1", "note": "PORTFÓLIO DE ESTÁGIO uppercase eyebrow" },
+    { "id": "headline", "kind": "text", "grid": "C1:H2", "note": "Gestão clínica em um só lugar centered headline" },
+    { "id": "primary-action", "kind": "control", "grid": "E2:F3", "note": "Blue Conheça o projeto button with arrow" },
+    { "id": "proof-sections", "kind": "chrome", "grid": "B3:D3", "note": "Outlined section icon and 7 seções proof item" },
+    { "id": "proof-stack", "kind": "chrome", "grid": "E3:F3", "note": "Code icon and React + Spring Boot proof item" },
+    { "id": "proof-progress", "kind": "chrome", "grid": "G3:I3", "note": "Upward trend icon and Projeto em evolução proof item" },
+    { "id": "product-shell", "kind": "chrome", "grid": "A4:J9", "container": true, "note": "Large light browser window containing the PacientPlans dashboard" },
+    { "id": "browser-toolbar", "kind": "chrome", "grid": "A4:J4", "note": "Browser toolbar with traffic lights and address field" },
+    { "id": "product-sidebar", "kind": "chrome", "grid": "A5:B9", "note": "Dashboard side navigation with brand and five menu items" },
+    { "id": "dashboard-heading", "kind": "text", "grid": "C5:E5", "note": "Dashboard heading with clinical overview subtitle" },
+    { "id": "dashboard-user", "kind": "chrome", "grid": "H5:J5", "note": "Notification icon and psychologist profile summary" },
+    { "id": "stat-patients", "kind": "chrome", "grid": "C6:D6", "note": "Patients statistic card with count and label" },
+    { "id": "stat-sessions", "kind": "chrome", "grid": "E6:F6", "note": "Sessions statistic card with count and label" },
+    { "id": "stat-revenue", "kind": "chrome", "grid": "G6:H6", "note": "Monthly revenue statistic card with amount and label" },
+    { "id": "stat-reports", "kind": "chrome", "grid": "I6:J6", "note": "Reports statistic card with count and label" },
+    { "id": "sessions-panel", "kind": "chrome", "grid": "C7:F9", "note": "Upcoming sessions table with three rows and view-all action" },
+    { "id": "patients-panel", "kind": "chrome", "grid": "G7:J9", "note": "Patients in follow-up table with three active status rows" }
+  ]
+}
